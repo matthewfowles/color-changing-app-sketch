@@ -43,7 +43,6 @@ const checkPageExists = document =>
 const create = context => {
   const document = sketch.fromNative(context.document);
   const page = checkPageExists(document);
-  console.log(document.pages.find(page => page.name === "lucid-colors"));
   const name = getName().replace(" ", "-");
 
   createColour(page, name);
