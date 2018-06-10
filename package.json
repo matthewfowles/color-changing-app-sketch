@@ -1,6 +1,6 @@
 {
   "name": "lucid",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": "https://github.com/matthewfowles/color-changing-app-sketch",
   "description": "color change syncing app",
   "engines": {
