@@ -3,15 +3,18 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Create new Color",
+      "identifier": "create",
+      "script": "./create.js"
+    },
+    {
+      "name": "Sync",
+      "identifier": "sync",
+      "script": "./sync.js"
     }
   ],
   "menu": {
     "title": "lucid",
-    "items": [
-      "my-command-identifier"
-    ]
+    "items": ["create", "sync"]
   }
 }
